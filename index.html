@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ifcanduela/jquery-donut</title>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="jquery.donut.js"></script>
+    <style>
+    .wrap {
+        margin: 50px auto;
+        width: 720px;
+    }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>ifcanduela/jquery-donut</h1>
+
+        <pre><code>
+&lt;canvas id="chart">
+    &lt;div data-value="4">Locket&lt;/div>
+    &lt;div data-value="8">reyes&lt;/div>
+    &lt;div data-value="15">Ford&lt;/div>
+    &lt;div data-value="16">Jarrah&lt;/div>
+    &lt;div data-value="23">Shepard&lt;/div>
+    &lt;div data-value="42">Kwon&lt;/div>
+&lt;/canvas>
+        </code></pre>
+
+        <div class="container">
+            <canvas id="chart">
+                <div data-value="4">Locket</div>
+                <div data-value="8">reyes</div>
+                <div data-value="15">Ford</div>
+                <div data-value="16">Jarrah</div>
+                <div data-value="23">Shepard</div>
+                <div data-value="42">Kwon</div>
+            </canvas>
+        </div>
+    </div>
+
+    <script>
+        $('#chart').donut();
+    </script>
+</body>
+</html>
